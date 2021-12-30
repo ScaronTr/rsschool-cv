@@ -27,3 +27,12 @@
 
    I'm beginner, therefore do not have work experience.
 
+## Education
+
+* **Stavropol State Agrarian University** - mechanical engineer (3rd course)
+* **RSSchool** - JS / FRONT-END. STAGE 0 (in progress)
+
+## Language 
+
+* **Russian** - native
+* **English** - A1 (elementary)
