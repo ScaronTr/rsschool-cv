@@ -25,7 +25,7 @@
    ```
 ## Work experience
 
-   I'm beginner, therefore do not have work experience.
+   [My CV](https://scarontr.github.io/rsschool-cv/cv "CV")
 
 ## Education
 
