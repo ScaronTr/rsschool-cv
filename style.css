@@ -239,3 +239,20 @@ a span::after {
 a span:hover::after {
    width: calc(100% - 20px) ;
 }
+
+.footer-left .link span {
+   position: relative;
+}
+
+.footer-left .link span::after {
+   content: "";
+   position: absolute; top: 95%;
+   width: 0%;
+   background-color: black;
+   height: 2px;
+   left: 0px;
+   transition: .6s;
+}
+.footer-left .link span:hover::after {
+   width: 100% ;
+}
