@@ -69,10 +69,9 @@
    left: 45px;    
 }
 
-.nav-item a:hover:after{    
+.nav-item a:hover:after{
    width: calc(100% - 90px);    
 }
-
 
 a {
    text-decoration: none;
@@ -223,3 +222,20 @@ pre {
    width: 120px;
 }
 
+.item a {
+   position: relative;
+   padding: 5px 10px;
+}
+
+a span::after {
+   content: "";
+   position: absolute; top: 95%;
+   width: 0%;
+   background-color: black;
+   height: 2px;
+   left: 10px;
+   transition: .6s;
+}
+a span:hover::after {
+   width: calc(100% - 20px) ;
+}
