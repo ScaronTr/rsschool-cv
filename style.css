@@ -20,6 +20,7 @@
    box-sizing: border-box;
    font-family: Roboto-Condensed, Arial, sans-serif; 
    scroll-behavior: smooth;
+   color: black
 } 
 
 .body-container-column {
@@ -64,7 +65,7 @@
    position: absolute; top: 90%;
    width: 0%;
    height: 2px;
-   background: rgb(0, 0, 0);
+   background: black;
    transition: .6s;
    left: 45px;    
 }
