@@ -19,6 +19,7 @@
 * {
    box-sizing: border-box;
    font-family: Roboto-Condensed, Arial, sans-serif; 
+   scroll-behavior: smooth;
 } 
 
 .body-container-column {
@@ -85,9 +86,9 @@ a {
 }
 
 .name {
-   font-size: 36px;
-   color: black;
    margin: 24px 0px;
+   color: black;
+   font-size: 36px;
 }
 
 .subtitle {
@@ -106,5 +107,82 @@ a {
 .another-font {
    font-size: 22px;
    font-family: Bungee-Outline;
+}
+
+.container-section {
+   display: flex;
+   justify-content: center;
+   width: 100%;
+   padding: 0px 20px;
+   font-size: 20px;
+   margin: 0 auto;
+   line-height: 1.6;
+}
+
+.aboutme {
+   padding-right: 20px;   
+}
+
+.right-block {
+   min-width: 230px;
+   background-color: rgba(245, 222, 179, 0.582);
+}
+
+.skills {
+   border-top-left-radius: 20px;
+   border-top-right-radius: 20px;
+}
+
+.lang {
+   border-bottom-left-radius: 20px;
+   border-bottom-right-radius: 20px;
+}
+
+.works {
+   text-align: center;
+}
+
+.list {
+   padding: 0px;
+   list-style: none;
+}
+
+.section-title {
+   text-align: center;
+}
+
+.item {
+   padding: 0 5px;
+}
+
+.iconli {
+   position: relative;
+   top: 3px; 
+   padding-right: 2px;
+}
+
+p {
+   margin-bottom: 0px;
+}
+
+.code {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   flex-grow: 1;
+   padding-right: 20px;
+}
+
+pre {
+   margin: 0px;
+   padding-top: 10px;
+   width: 300px;
+   border-radius: 15px;
+   background-color: rgba(190, 190, 190, 0.9);
+}
+
+.edu {
+   flex-grow: 1;
+   padding-right: 20px;
 }
 
