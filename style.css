@@ -46,9 +46,33 @@
 }
 
 .nav-item {
-   padding: 5px 45px;
+   padding: 5px 0px;
    font-size: 18px;
 }
+
+.nav-item a {
+   padding: 5px 45px;
+}
+
+.nav-item a {
+   padding: 8px 45px;
+   position: relative;
+}
+
+.nav-item a:after{
+   content: '';
+   position: absolute; top: 90%;
+   width: 0%;
+   height: 2px;
+   background: rgb(0, 0, 0);
+   transition: .6s;
+   left: 45px;    
+}
+
+.nav-item a:hover:after{    
+   width: calc(100% - 90px);    
+}
+
 
 a {
    text-decoration: none;
@@ -198,3 +222,4 @@ pre {
    height: 60px;
    width: 120px;
 }
+
